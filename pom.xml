@@ -212,6 +212,14 @@
     <tag>HEAD</tag>
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
+         
+         <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-1-0-snapshots</name>
+        <url>http://ec2-3-239-165-212.compute-1.amazonaws.com:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <prerequisites>
     <maven>3.0.3</maven>
